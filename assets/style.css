@@ -17,6 +17,9 @@ html, body {
     background: linear-gradient(to right, rgba(0,114,163,1) 0%, rgba(6,132,186,1) 41%, rgba(7,127,179,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0072a3', endColorstr='#077fb3', GradientType=1 );
 }
+.site-section.section-one h1 {
+    text-align: center;
+}
 
 .site-section.section-two {
     background-color: #eee;
