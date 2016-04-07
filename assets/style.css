@@ -1,0 +1,17 @@
+html, body {
+    position: relative;
+    margin: 0;
+    height: 200%;
+}
+
+.site-section {
+    height: 50%;
+}
+
+.site-section.section-one {
+    background-color: aqua;
+}
+
+.site-section.section-two {
+    
+}
