@@ -1,17 +1,23 @@
 html, body {
     position: relative;
     margin: 0;
-    height: 200%;
 }
 
 .site-section {
-    height: 50%;
+    height: 100vh;
 }
 
 .site-section.section-one {
-    background-color: aqua;
+    background: rgba(0,114,163,1);
+    background: -moz-linear-gradient(left, rgba(0,114,163,1) 0%, rgba(6,132,186,1) 41%, rgba(7,127,179,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,114,163,1)), color-stop(41%, rgba(6,132,186,1)), color-stop(100%, rgba(7,127,179,1)));
+    background: -webkit-linear-gradient(left, rgba(0,114,163,1) 0%, rgba(6,132,186,1) 41%, rgba(7,127,179,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,114,163,1) 0%, rgba(6,132,186,1) 41%, rgba(7,127,179,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,114,163,1) 0%, rgba(6,132,186,1) 41%, rgba(7,127,179,1) 100%);
+    background: linear-gradient(to right, rgba(0,114,163,1) 0%, rgba(6,132,186,1) 41%, rgba(7,127,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0072a3', endColorstr='#077fb3', GradientType=1 );
 }
 
 .site-section.section-two {
-    
+    background-color: #eee;
 }
